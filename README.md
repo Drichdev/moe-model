@@ -40,10 +40,10 @@ http://localhost:8000/docs
 
 ```mermaid
 flowchart TD
-    A[Input: Question Utilisateur] --> B[Embedding Layer]
+    A[Input: User question] --> B[Embedding Layer]
     B --> C[Memory Check]
     C -->|Similarité > Seuil| D[Memory Storage]
-    C -->|Nouvelle Question| E[Gating Network]
+    C -->|New Question| E[Gating Network]
     E --> F[Expert 1]
     E --> G[Expert 2]
     E --> H[Expert N]
