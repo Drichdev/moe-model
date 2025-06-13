@@ -42,7 +42,7 @@ http://localhost:8000/docs
 flowchart TD
     A[Input: User question] --> B[Embedding Layer]
     B --> C[Memory Check]
-    C -->|Similarité > Seuil| D[Memory Storage]
+    C -->|Similarity > Threshold| D[Memory Storage]
     C -->|New Question| E[Gating Network]
     E --> F[Expert 1]
     E --> G[Expert 2]
