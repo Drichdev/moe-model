@@ -1,6 +1,7 @@
 # `moe-model` API Documentation
 
 This is a Dockerized API that provides a **Mixture of Experts (MoE)** system for **Question Answering** using a **Neuro-Symbolic AI** approach.
+A user can only make 10 requests to control usage.
 
 ---
 
@@ -87,3 +88,7 @@ flowchart TD
 - Stores and indexes question embeddings
 - Instant answers for known questions
 - Built-in deduplication mechanism
+
+### 📝 License
+
+This project is released under the MIT License.
