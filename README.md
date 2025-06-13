@@ -89,6 +89,8 @@ flowchart TD
 - Instant answers for known questions
 - Built-in deduplication mechanism
 
+---
+
 ### 📝 License
 
 This project is released under the MIT License.
